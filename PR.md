@@ -76,6 +76,20 @@ effect/entanglebrush/
 3. Click and drag on the canvas to create a stroke
 4. The quantum entanglement creates non-local correlations between paired segments
 
+## Examples
+
+### Ukiyo-e Artwork Transformation
+
+The following example demonstrates EntangleBrush applied to a traditional Japanese ukiyo-e artwork:
+
+**Original Image:**
+![Original Ukiyo-e](project/project_1763508961929/original.png)
+
+**After Applying EntangleBrush:**
+![Quantum-Enhanced Ukiyo-e](project/project_1763508961929/current.png)
+
+The quantum entanglement effect creates unique color correlations across different parts of the artwork, demonstrating how quantum mechanics can be used to create artistic transformations while preserving the essence of the original piece.
+
 ## Scientific Background
 
 This brush demonstrates quantum entanglement, a fundamental phenomenon in quantum mechanics where:
