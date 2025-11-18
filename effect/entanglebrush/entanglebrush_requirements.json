@@ -1,0 +1,47 @@
+{
+    "name": "EntangleBrush",
+    "id": "entanglebrush",
+    "author": "QuantumBrush Developer",
+    "version": "1.0.0",
+    "long_description": "EntangleBrush uses quantum entanglement to create correlated color transformations across different parts of your stroke. When you paint, the brush pairs up segments of your stroke and entangles their quantum color states using Bell states and CNOT gates.\n\nAs the quantum states evolve, the entangled pairs influence each other—changes in one color segment cause corresponding changes in its entangled partner. This creates a unique visual effect where colors seem to 'communicate' with each other through quantum mechanics.\n\nThe number of Entanglement Pairs determines how many pairs of segments will be created and entangled. The Strength parameter controls how much the quantum evolution affects the original colors. Higher strength values create more dramatic color shifts, while lower values provide subtle quantum-inspired variations.\n\nThis brush demonstrates the non-local correlations inherent in quantum entanglement, where measurements on one part of an entangled system instantaneously affect the other, even when they are spatially separated—a phenomenon that Einstein called 'spooky action at a distance'.",
+    "description": "EntangleBrush creates quantum-entangled color pairs along your stroke. Each pair of segments is connected through quantum entanglement (Bell states), causing correlated color transformations.\n\nThe effect is controlled by several parameters:\n 🔹 Radius → determines the size of the brush effect\n 🔹 Strength → controls how much quantum evolution affects colors (0.0 = subtle, 1.0 = dramatic)\n 🔹 Entanglement Pairs → number of color pairs to create and entangle\n 🔹 Color → base color for initialization\n\nUsage:\n 🔸 Click and drag on the canvas to create a stroke with entangled color segments\n 🔸 The quantum entanglement creates non-local correlations between paired segments",
+    "dependencies": {
+        "numpy": ">=2.1.0",
+        "colorsys": "",
+        "qiskit": ">=1.0.0",
+        "qiskit_ibm_runtime": ">=0.20.0",
+        "qiskit_aer": ">=0.17.0"
+    },
+    "user_input": {
+        "Radius": {
+            "type": "int",
+            "min": 1,
+            "max": 100,
+            "default": 10
+        },
+        "Strength": {
+            "type": "float",
+            "min": 0.0,
+            "max": 1.0,
+            "default": 0.7
+        },
+        "Entanglement Pairs": {
+            "type": "int",
+            "min": 1,
+            "max": 20,
+            "default": 3
+        },
+        "Color": {
+            "type": "color",
+            "default": "#00FF00"
+        }
+    },
+    "stroke_input": {
+        "image_rgba": "array",
+        "path": "array"
+    },
+    "flags": {
+        "smooth_path": true
+    }
+}
+
