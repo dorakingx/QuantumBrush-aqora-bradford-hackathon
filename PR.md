@@ -85,6 +85,9 @@ The following example demonstrates EntangleBrush applied to a traditional Japane
 **Original Image:**
 ![Original Ukiyo-e](project/project_1763508961929/original.png)
 
+**Quantum Brush Stroke:**
+![Quantum Brush Stroke](project/project_1763508961929/stroke/stroke_1763509234459_output.png)
+
 **After Applying EntangleBrush:**
 ![Quantum-Enhanced Ukiyo-e](project/project_1763508961929/current.png)
 
